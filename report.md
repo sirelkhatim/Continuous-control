@@ -22,8 +22,11 @@ and this is the parameter that controls weight decay
 For the actor I used a 3 layer neural network with the first layer having 256 units and the second layer having 128 units. I used relu activation functions for this network
 The exact same architecture was used for the critic except we used a leaky relu for the activation function. You can see the code in model.py
 
+# Results
+
 Here is a graph of the rewards over episodes:
 ![DDPG performance](DdpgVsEpisodes.png)
+As you can see there is alot of noise during training, with a quite few swings. It ends up solving the environment in 502 episodes.
 
 # Improvements
 I think it would be interesting to see the performance of PPO on this environment. Also, I trained this on a single agent. It would be interesting to see the performance of this in a multi-agent setting.
