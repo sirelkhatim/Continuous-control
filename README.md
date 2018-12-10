@@ -12,7 +12,12 @@ cd deep-reinforcement-learning/python
 pip install .
 ```
 If you would like to train the agent follow the notebook "Continuous_Control.ipynb". 
-
+## Files
+- ddpg_agent.py : implementation of ddpg agent
+- model.py: actor and critic neural network implementations
+- checkpoint_actor.pth : checkpoint of the actor final model
+- checkpoint_critic.pth: checkpoint of the critic final model
+- Continuous_Control.ipyng: notebook used to train the ddpg agent
 
 ## Acknowledgments
 In order to create the code I adapted the ddpg code from alexis cook's github repository 'ddpg-bipedal': https://github.com/udacity/deep-reinforcement-learning/tree/master/ddpg-bipedal
