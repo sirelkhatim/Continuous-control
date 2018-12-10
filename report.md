@@ -25,7 +25,10 @@ The exact same architecture was used for the critic except we used a leaky relu 
 # Results
 
 Here is a graph of the rewards over episodes:
+
 ![DDPG performance](DdpgVsEpisodes.png)
+
+
 As you can see there is alot of noise during training, with a quite few swings. It ends up solving the environment in 502 episodes.
 
 # Improvements
