@@ -32,4 +32,4 @@ Here is a graph of the rewards over episodes:
 As you can see there is alot of noise during training, with a quite few swings. It ends up solving the environment in 502 episodes.
 
 # Improvements
-I think it would be interesting to see the performance of PPO on this environment. Also, I trained this on a single agent. It would be interesting to see the performance of this in a multi-agent setting.
+I think it would be interesting to see the performance of PPO on this environment. Also, I trained this on a single agent. It would be interesting to see the performance of this in a multi-agent setting. It would also be interesting to test the performance of A3C and D4PG. You can find more information on D4PG here: https://openreview.net/pdf?id=SyZipzbCb
